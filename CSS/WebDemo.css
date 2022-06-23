@@ -163,3 +163,45 @@ header ul li a {
     background: #59ac89;
     clip-path: circle(600px at right 850px);
 }
+
+
+/*responsive*/
+
+@media screen and (max-width: 992px) {
+    header {
+        padding: 20px;
+    }
+    header .logo {
+        max-width: 60px;
+    }
+    header ul {
+        display: none;
+    }
+    section {
+        padding: 20px 20px 120px;
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .content .textBox h2 {
+        font-size: 3.5em;
+        margin-bottom: 2px;
+    }
+    .content .textBox {
+        max-width: 100%;
+    }
+    .content .imgBox {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .content .imgBox img {
+        max-width: 400px;
+    }
+    .thumb li img {
+        max-width: ;
+    }
+    .circle {
+        clip-path: circle(800px at right bottom);
+    }
+}
