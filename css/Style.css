@@ -1,0 +1,142 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7f7f7;
+}
+
+header .logo {
+    max-width: 80px;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.content {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.content h2 {
+    color: #333;
+    font-size: 4em;
+}
+
+.content h2 span {
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content p {
+    color: #333;
+    max-width: 800px;
+}
+
+.imgBox {
+    top: 20%;
+    transform: translateX(30%);
+    max-width: 400px;
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert();
+}
+
+.social li a {
+    margin: 10px;
+}
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.thumb li:hover {
+    transform: translateY(-15px);
+}
+
+.thumb li img {
+    max-width: 60px;
+}
+
+.circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #59ac89;
+    clip-path: circle(700px at right 950px);
+}
+
+
+/*responsive*/
+
+
+/* @media screen and (max-width: 992px) {
+    header {
+        padding: 20px;
+    }
+    header .logo {
+        max-width: 60px;
+    }
+    header ul {
+        display: none;
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .content h2 {
+        font-size: 3.5em;
+        margin-bottom: 2px;
+    }
+    .content {
+        max-width: 80%;
+        margin: auto;
+    }
+    .imgBox {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .imgBox img {
+        max-width: 400px;
+    }
+    .social li a {
+        filter: none;
+    }
+    .circle {
+        display: none;
+    }
+} */
